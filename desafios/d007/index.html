@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="foto-favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/foto-favicon.png" type="image/x-icon">
     <title>Imagem flexível</title>
 </head>
 <body>
@@ -11,11 +11,10 @@
     <hr>
     <p>Observe a imagem abaixo e reduza o tamanho da janela</p>
     <picture>
-        <source media="(max-width: 720px)" srcset="">
-        <source media="(max-width: 1020px)" srcset="">
-        <img src="" alt="">
+        <source media="(max-width: 800px)" srcset="imagens/foto-mao-p.jpg">
+        <source media="(max-width: 1020px)" srcset="imagens/foto-mao-m.jpg">
+        <img src="imagens/foto-mao-g.jpg" alt="Foto de uma mão saindo da grama">
     </picture>
-
     <p>Houve um redimensionamento da imagem?</p>
 </body>
 </html>
