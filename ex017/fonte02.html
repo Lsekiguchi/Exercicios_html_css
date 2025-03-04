@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'A';
+            src: url('fonts/Moogalator.ttf') format('opentype'), url('fonts/MoogalatorFiller.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format():
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        @font-face {
+            font-family: 'B';
+            src: url('fonts/BLASTIMO\ SANS.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'C';
+            src: url('fonts/Very\ Simple\ Chalk.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'A', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-family: 'B', fantasy;
+            font-size: 2em;
+        }
+
+        p {
+            font-family: 'C', 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Título principal</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sapiente ipsa debitis architecto consequatur, animi earum recusandae minima! Fuga magni, quidem suscipit itaque neque dolor ipsum accusamus ratione saepe soluta!</p>
+        <h2>Sub-título</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti neque, quo minima, est autem, ducimus ab maxime quidem quos nulla accusamus necessitatibus alias harum laborum deserunt placeat eius qui!</p>
+    </main>
+</body>
+</html>
