@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="../favicon/compass_favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        .torre::before {
+            content: '\002656 ';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .torre::after {
+            content: ' \00265C';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .dama::before {
+            content: '\002655 ';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .dama::after {
+            content: ' \00265B';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .rei::before {
+            content: '\002654 ';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .rei::after {
+            content: ' \00265A';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://github.com/Lsekiguchi" rel="external" target="_blank" class="rei">Github</a></li>
+            <li><a href="https://instagram.com/lsekiguchi_mesmo" rel="external" target="_blank" class="dama">Instagram</a></li>
+            <li><a href="https://lsekiguchi.github.io/Perfil_lsekiguchi_site/" rel="external" target="_blank" class="torre">Meu site</a></li>
+        </ul>
+    </main>
+</body>
+</html>
