@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="shortcut icon" href="../favicon/compass_favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightcyan;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightcyan;
+        }
+
+        h1 {
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.264);
+        }
+
+        nav {
+            background-color: black;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            box-shadow: 3px 3px 5px gray;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+            color: white;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        section > article {
+            width: 50%;
+            height: 400px;
+        }
+
+        article > aside {
+            background-color: rgba(224, 200, 200, 0.536);
+            margin: 1px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 2px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+            <a href="#">abc</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita nostrum repudiandae assumenda architecto numquam, error officia minus iusto suscipit atque laborum nam, a explicabo vitae odit ea quidem odio! Culpa.</p>
+                <aside>Escrito por José da Silva</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lucas Sekiguchi.</p>
+    </footer>
+</body>
+</html>
