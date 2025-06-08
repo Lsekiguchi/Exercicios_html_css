@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas decoradas</title>
+    <link rel="shortcut icon" href="../favicon/compass_favicon.ico" type="image/x-icon">
+    <style>
+        h1 {
+            border: 20px solid transparent;
+            padding: 10px;
+            background-color: gray;
+            text-align: center;
+            border-image-source: url('imagens/borda.png');
+            border-image-slice: 12;
+            border-image-repeat: space;
+        }
+
+        p {
+            border: 20px solid transparent;
+            padding: 10px;
+            background-color: gray;
+            text-align: center;
+            border-image: url('imagens/borda.png') 15 space;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequuntur blanditiis eos, ipsam mollitia laborum temporibus. Eveniet debitis iusto voluptate! Vero consequuntur sed nisi inventore, quia veritatis ipsum et dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque numquam, sequi animi hic quos eligendi consequatur ratione autem eveniet nam dolorum delectus vero praesentium voluptates voluptatem nihil! Minus, voluptates Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet eligendi nemo libero aperiam, cumque assumenda saepe doloremque eius doloribus amet accusantium voluptatem reiciendis animi, ducimus eum id, dicta dignissimos dolorem.</p>
+</body>
+</html>
