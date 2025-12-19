@@ -26,6 +26,8 @@
 
 header {
     background-color: var(--cor4);
+    text-align: center;
+    min-width: 290px;
 }
 
 header > h1 {
@@ -39,6 +41,7 @@ header > p {
 
 nav {
     background-color: var(--cor5);
+    min-width: 290px;
 }
 
 nav > a {
@@ -47,6 +50,9 @@ nav > a {
 
 main {
     background-color: var(--cor4);
+    max-width: 1000px;
+    min-width: 290px;
+    margin: auto;
 }
 
 h1 {
@@ -70,6 +76,11 @@ li {
     color: var(--cor0);
 }
 
+img {
+    width: 95%;
+    align-items: center;
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--fontepadrao);
@@ -77,6 +88,9 @@ body {
 
 footer {
     background-color: var(--cor5);
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
 a {
