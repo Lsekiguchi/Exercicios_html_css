@@ -53,6 +53,10 @@ main {
     max-width: 1000px;
     min-width: 290px;
     margin: auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #063d1e84;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 h1 {
@@ -78,7 +82,14 @@ li {
 
 img {
     width: 95%;
-    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 body {
